@@ -1,0 +1,70 @@
+CRITICAL - 2022-12-27 00:08:07 --> Undefined variable: posts
+in APPPATH/Views/pages/home_content.php on line 143.
+ 1 APPPATH/Views/pages/home_content.php(143): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/home_content.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/FbController.php(89): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->home()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 00:09:04 --> Undefined variable: posts
+in APPPATH/Views/pages/home_content.php on line 143.
+ 1 APPPATH/Views/pages/home_content.php(143): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/home_content.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/FbController.php(89): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->home()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 00:43:18 --> Undefined property: stdClass::$post
+in APPPATH/Controllers/FbController.php on line 324.
+ 1 APPPATH/Controllers/FbController.php(324): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->fetch()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 00:54:11 --> Too few arguments to function App\Controllers\FbController::home(), 0 passed in /var/www/html/myProject/system/CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH/Controllers/FbController.php on line 78.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->home()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:35:11 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH/Views/pages/login.php on line 92.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 06:38:09 --> syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$'
+in APPPATH/Controllers/FbController.php on line 340.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 06:42:52 --> Undefined variable: data
+in APPPATH/Controllers/FbController.php on line 343.
+ 1 APPPATH/Controllers/FbController.php(343): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->viewPost()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 23:54:33 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-12-27 23:54:33 --> 220 smtp.gmail.com ESMTP d18-20020a170903231200b001928c9d772bsm2558623plh.206 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [202.88.235.211]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d18-20020a170903231200b001928c9d772bsm2558623plh.206 - gsmtp
+

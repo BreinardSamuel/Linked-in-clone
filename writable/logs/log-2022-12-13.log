@@ -1,0 +1,328 @@
+CRITICAL - 2022-12-13 00:09:27 --> Undefined array key "user_id"
+in APPPATH\Controllers\FbController.php on line 129.
+ 1 APPPATH\Controllers\FbController.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\FbController.php', 129)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->newlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 00:14:24 --> Undefined array key "user_id"
+in APPPATH\Controllers\FbController.php on line 129.
+ 1 APPPATH\Controllers\FbController.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Controllers\\FbController.php', 129)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->newlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 00:16:48 --> Undefined array key "id"
+in APPPATH\Controllers\FbController.php on line 129.
+ 1 APPPATH\Controllers\FbController.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\FbController.php', 129)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->newlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 00:24:59 --> syntax error, unexpected token "=>"
+in APPPATH\Controllers\FbController.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\FbController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\FbController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\FbController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\FbController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 00:30:32 --> Call to undefined method App\Controllers\FbController::response()
+in APPPATH\Controllers\FbController.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->newlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-13 02:21:41 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Showcase\ci4\app\Models\RegisterModel.php(100): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php(69): App\Models\RegisterModel->displayprofile(NULL)
+#6 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(927): App\Controllers\FbController->home()
+#7 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+#8 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Showcase\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-13 02:21:41 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user_details`
+WHERE `id` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user_details`
+WHERE `id` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user_details`
+WHERE `id` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user_details`
+WHERE `id` IS NULL', [], false)
+ 5 APPPATH\Models\RegisterModel.php(100): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\FbController.php(69): App\Models\RegisterModel->displayprofile(null)
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->home()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-13 02:23:55 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Showcase\ci4\app\Models\RegisterModel.php(100): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php(69): App\Models\RegisterModel->displayprofile(NULL)
+#6 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(927): App\Controllers\FbController->home()
+#7 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+#8 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Showcase\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-13 02:23:55 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user_details`
+WHERE `id` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user_details`
+WHERE `id` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user_details`
+WHERE `id` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user_details`
+WHERE `id` IS NULL', [], false)
+ 5 APPPATH\Models\RegisterModel.php(100): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\FbController.php(69): App\Models\RegisterModel->displayprofile(null)
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->home()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-13 02:26:56 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Showcase\ci4\app\Models\RegisterModel.php(100): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php(69): App\Models\RegisterModel->displayprofile('26')
+#6 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(927): App\Controllers\FbController->home()
+#7 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+#8 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Showcase\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-13 02:26:56 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user_details`
+WHERE `id` = \'26\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user_details`
+WHERE `id` = \'26\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user_details`
+WHERE `id` = \'26\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user_details`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Models\RegisterModel.php(100): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\FbController.php(69): App\Models\RegisterModel->displayprofile('26')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->home()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 02:27:53 --> Undefined variable $result
+in APPPATH\Views\pages\homeview.php on line 12.
+ 1 APPPATH\Views\pages\homeview.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'APPPATH\\Views\\pages\\homeview.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\homeview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('\\pages\\homeview', [], true)
+ 5 APPPATH\Controllers\FbController.php(73): view('\\pages\\homeview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->home()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 02:45:56 --> Undefined variable $result
+in APPPATH\Views\pages\homeview.php on line 12.
+ 1 APPPATH\Views\pages\homeview.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'APPPATH\\Views\\pages\\homeview.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\homeview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('\\pages\\homeview', [], true)
+ 5 APPPATH\Controllers\FbController.php(73): view('\\pages\\homeview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->home()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 02:48:54 --> Undefined variable $data
+in APPPATH\Controllers\FbController.php on line 73.
+ 1 APPPATH\Controllers\FbController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\FbController.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->home()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 02:49:41 --> Undefined variable $data
+in APPPATH\Controllers\FbController.php on line 73.
+ 1 APPPATH\Controllers\FbController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\FbController.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->home()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 02:51:31 --> Undefined variable $details
+in APPPATH\Views\pages\homeview.php on line 12.
+ 1 APPPATH\Views\pages\homeview.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $details', 'APPPATH\\Views\\pages\\homeview.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\homeview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('\\pages\\homeview', [], true)
+ 5 APPPATH\Controllers\FbController.php(75): view('\\pages\\homeview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->home()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 03:14:55 --> Call to undefined method CodeIgniter\Router\RouteCollection::pos()
+in APPPATH\Config\Routes.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(789): require()
+ 2 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 04:20:06 --> view(): Argument #3 ($options) must be of type array, bool given, called in C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php on line 75
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\FbController.php(75): view('\\pages\\homeview', [...], true)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->home()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 04:24:32 --> view(): Argument #3 ($options) must be of type array, bool given, called in C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php on line 75
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\FbController.php(75): view('\\pages\\homeview', [...], true)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->home()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 04:24:53 --> The route for "<!-- DEBUG-VIEW START 1 APPPATH\Views\pages\homeview.php -->
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to edit this template
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+    </head>
+    <body>
+        <h1>Home Page Array
+(
+    [0] => stdClass Object
+        (
+            [user_id] => 26
+            [name] => get
+            [address] => dscsdcku
+            [email] => g@g.com
+            [mobile_number] => 123456789
+            [password] => 123
+            [created__on] => 2022-12-12 15:33:13
+            [updated_on] => 2022-12-12 15:33:13
+        )
+
+)
+</h1>
+        
+        <div>
+            
+        </div>
+    </body>
+</html>
+
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\pages\homeview.php -->
+" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\pages\\homeview.php -->
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to edit this template
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+    </head>
+    <body>
+        <h1>Home Page Array
+(
+    [0] => stdClass Object
+        (
+            [user_id] => 26
+            [name] => get
+            [address] => dscsdcku
+            [email] => g@g.com
+            [mobile_number] => 123456789
+            [password] => 123
+            [created__on] => 2022-12-12 15:33:13
+            [updated_on] => 2022-12-12 15:33:13
+        )
+
+)
+</h1>
+        
+        <div>
+            
+        </div>
+    </body>
+</html>
+
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\pages\\homeview.php -->
+')
+ 2 SYSTEMPATH\Common.php(860): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\FbController.php(75): redirect('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\pages\\homeview.php -->
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to edit this template
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+    </head>
+    <body>
+        <h1>Home Page Array
+(
+    [0] => stdClass Object
+        (
+            [user_id] => 26
+            [name] => get
+            [address] => dscsdcku
+            [email] => g@g.com
+            [mobile_number] => 123456789
+            [password] => 123
+            [created__on] => 2022-12-12 15:33:13
+            [updated_on] => 2022-12-12 15:33:13
+        )
+
+)
+</h1>
+        
+        <div>
+            
+        </div>
+    </body>
+</html>
+
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\pages\\homeview.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->home()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 05:25:22 --> syntax error, unexpected variable "$f"
+in APPPATH\Controllers\FbController.php on line 141.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\FbController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\FbController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\FbController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\FbController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

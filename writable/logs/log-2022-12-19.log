@@ -1,0 +1,718 @@
+CRITICAL - 2022-12-19 01:04:19 --> fopen(/var/www/html/myProject/writable/session/ci_sessionlvir5pfs44u30sap8r1d4und1g11835i): failed to open stream: Permission denied
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 129.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(129): fopen()
+ 3 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+ 4 SYSTEMPATH/Session/Session.php(912): session_start()
+ 5 SYSTEMPATH/Session/Session.php(234): CodeIgniter\Session\Session->startSession()
+ 6 SYSTEMPATH/Config/Services.php(665): CodeIgniter\Session\Session->start()
+ 7 SYSTEMPATH/Config/BaseService.php(253): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Config/BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance()
+10 SYSTEMPATH/Config/BaseService.php(253): CodeIgniter\Config\Services::session()
+11 APPPATH/Controllers/FbController.php(21): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\FbController->__construct()
+13 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+14 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+15 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 01:06:12 --> Invalid file: pages/some_view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/FbController.php(228): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 01:09:43 --> Invalid file: pages/some_view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/FbController.php(228): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 01:11:04 --> Invalid file: pages/some_view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/FbController.php(228): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 01:11:21 --> Invalid file: pages/some_view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/FbController.php(228): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 01:12:34 --> Invalid file: pages/some_view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/FbController.php(228): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 01:13:35 --> Invalid file: pages/some_view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/FbController.php(228): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 01:13:56 --> Invalid file: pages/some_view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/FbController.php(228): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 03:48:37 --> Invalid file: pages/some_view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/FbController.php(228): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 04:45:12 --> Invalid file: \pages\register.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/FbController.php(70): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->register()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 04:45:16 --> Invalid file: \pages\register.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/FbController.php(70): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->register()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 04:45:34 --> Invalid file: \pages\register.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/FbController.php(70): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->register()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 04:45:52 --> Invalid file: \pages\adminlogin.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/FbController.php(94): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->admin()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 04:48:09 --> Invalid file: \pages\register.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/FbController.php(70): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->register()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 04:49:29 --> Invalid file: \Views\pages\register.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/FbController.php(70): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->register()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 04:49:30 --> Invalid file: \Views\pages\register.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/FbController.php(70): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->register()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 04:51:03 --> Invalid file: app\Views\pages\register.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/FbController.php(70): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->register()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 04:51:29 --> Invalid file: \register.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/FbController.php(70): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->register()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 04:53:44 --> Invalid file: \pages\register.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/FbController.php(70): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->register()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 04:55:00 --> Invalid file: \pages\adminlogin.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/FbController.php(94): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->admin()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 04:56:14 --> Invalid file: Views\pages\register.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/FbController.php(70): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->register()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 05:02:04 --> Invalid file: \pages\homeview.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/FbController.php(85): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->home()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 05:04:48 --> Invalid file: \pages\homeview.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/FbController.php(85): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->home()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 05:09:15 --> Invalid file: pages/default.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/FbController.php(85): view()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->home()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 05:09:37 --> Invalid file: /pages/home_content.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/FbController.php(85): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->home()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 05:10:38 --> Invalid file: pages/default.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/FbController.php(85): view()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->home()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 05:24:21 --> Undefined variable: details
+in APPPATH/Views/pages/home_content.php on line 7.
+ 1 APPPATH/Views/pages/home_content.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/home_content.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/FbController.php(85): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->home()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 05:24:36 --> Invalid file: pages/default.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/FbController.php(85): view()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->home()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 05:48:00 --> Call to a member function isValid() on null
+in APPPATH/Controllers/FbController.php on line 213.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 05:50:42 --> Call to a member function isValid() on null
+in APPPATH/Controllers/FbController.php on line 213.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 05:59:59 --> Call to a member function isValid() on null
+in APPPATH/Controllers/FbController.php on line 213.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 06:01:36 --> Call to a member function isValid() on null
+in APPPATH/Controllers/FbController.php on line 213.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 06:03:01 --> Call to a member function hasMoved() on null
+in APPPATH/Controllers/FbController.php on line 213.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 06:05:59 --> Undefined variable: id
+in APPPATH/Controllers/FbController.php on line 218.
+ 1 APPPATH/Controllers/FbController.php(218): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 06:07:22 --> Undefined variable: id
+in APPPATH/Controllers/FbController.php on line 218.
+ 1 APPPATH/Controllers/FbController.php(218): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 06:14:14 --> Call to undefined function form_open_multipart()
+in APPPATH/Views/pages/home_content.php on line 14.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/FbController.php(85): view()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->home()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 06:14:45 --> Call to undefined function form_open_multipart()
+in APPPATH/Views/pages/home_content.php on line 14.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/FbController.php(85): view()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->home()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 06:27:02 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/FbController.php on line 213.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 06:27:32 --> Call to a member function move() on null
+in APPPATH/Controllers/FbController.php on line 214.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 06:39:11 --> syntax error, unexpected ';'
+in APPPATH/Controllers/FbController.php on line 215.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 06:39:14 --> syntax error, unexpected ';'
+in APPPATH/Controllers/FbController.php on line 215.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 06:41:51 --> Undefined variable: id
+in APPPATH/Controllers/FbController.php on line 218.
+ 1 APPPATH/Controllers/FbController.php(218): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 06:42:13 --> Undefined variable: query
+in APPPATH/Models/RegisterModel.php on line 122.
+ 1 APPPATH/Models/RegisterModel.php(122): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/FbController.php(222): App\Models\RegisterModel->uploadCover()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 06:43:08 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /var/www/html/myProject/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/myProject/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/myProject/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/myProject/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/myProject/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/myProject/app/Models/RegisterModel.php(122): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/myProject/app/Controllers/FbController.php(222): App\Models\RegisterModel->uploadCover()
+#6 /var/www/html/myProject/system/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+#7 /var/www/html/myProject/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/myProject/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/myProject/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 06:43:08 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/RegisterModel.php(122): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/FbController.php(222): App\Models\RegisterModel->uploadCover()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 06:49:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`,user_id`) VALUES ('')' at line 1 in /var/www/html/myProject/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/myProject/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/myProject/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/myProject/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/myProject/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/myProject/app/Models/RegisterModel.php(119): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/myProject/app/Controllers/FbController.php(222): App\Models\RegisterModel->uploadCover()
+#6 /var/www/html/myProject/system/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+#7 /var/www/html/myProject/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/myProject/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/myProject/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 06:49:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`,user_id`) VALUES ('')' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/RegisterModel.php(119): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH/Controllers/FbController.php(222): App\Models\RegisterModel->uploadCover()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 06:50:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`,user_id`) VALUES ('')' at line 1 in /var/www/html/myProject/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/myProject/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/myProject/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/myProject/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/myProject/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/myProject/app/Models/RegisterModel.php(119): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/myProject/app/Controllers/FbController.php(222): App\Models\RegisterModel->uploadCover()
+#6 /var/www/html/myProject/system/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+#7 /var/www/html/myProject/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/myProject/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/myProject/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 06:50:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`,user_id`) VALUES ('')' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/RegisterModel.php(119): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH/Controllers/FbController.php(222): App\Models\RegisterModel->uploadCover()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 10:14:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`,user_id`) VALUES ('')' at line 1 in /var/www/html/myProject/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/myProject/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/myProject/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/myProject/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/myProject/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/myProject/app/Models/RegisterModel.php(119): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/myProject/app/Controllers/FbController.php(222): App\Models\RegisterModel->uploadCover()
+#6 /var/www/html/myProject/system/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+#7 /var/www/html/myProject/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/myProject/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/myProject/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 10:14:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`,user_id`) VALUES ('')' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/RegisterModel.php(119): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH/Controllers/FbController.php(222): App\Models\RegisterModel->uploadCover()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 10:24:25 --> mysqli_sql_exception: Duplicate entry '32' for key 'user_details.PRIMARY' in /var/www/html/myProject/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/myProject/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/myProject/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/myProject/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/myProject/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/myProject/app/Models/RegisterModel.php(119): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/myProject/app/Controllers/FbController.php(222): App\Models\RegisterModel->uploadCover()
+#6 /var/www/html/myProject/system/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+#7 /var/www/html/myProject/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/myProject/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/myProject/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 10:24:25 --> Duplicate entry '32' for key 'user_details.PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/RegisterModel.php(119): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH/Controllers/FbController.php(222): App\Models\RegisterModel->uploadCover()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 10:26:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::affectedRows()
+in APPPATH/Models/RegisterModel.php on line 123.
+ 1 APPPATH/Controllers/FbController.php(222): App\Models\RegisterModel->uploadCover()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 10:32:25 --> mysqli_sql_exception: Duplicate entry '33' for key 'user_details.PRIMARY' in /var/www/html/myProject/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/myProject/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/myProject/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/myProject/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/myProject/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/myProject/app/Models/RegisterModel.php(119): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/html/myProject/app/Controllers/FbController.php(222): App\Models\RegisterModel->uploadCover()
+#6 /var/www/html/myProject/system/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+#7 /var/www/html/myProject/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/myProject/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/myProject/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 10:32:25 --> Duplicate entry '33' for key 'user_details.PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/RegisterModel.php(119): CodeIgniter\Database\BaseBuilder->update()
+ 6 APPPATH/Controllers/FbController.php(222): App\Models\RegisterModel->uploadCover()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 10:37:01 --> mysqli_sql_exception: Unknown column '1671467821_1cc6e5340d301616f06a.png' in 'where clause' in /var/www/html/myProject/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/myProject/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/myProject/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/myProject/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/myProject/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/myProject/app/Models/RegisterModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/html/myProject/app/Controllers/FbController.php(222): App\Models\RegisterModel->uploadCover()
+#6 /var/www/html/myProject/system/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+#7 /var/www/html/myProject/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/myProject/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/myProject/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 10:37:01 --> Unknown column '1671467821_1cc6e5340d301616f06a.png' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/RegisterModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+ 6 APPPATH/Controllers/FbController.php(222): App\Models\RegisterModel->uploadCover()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 10:40:05 --> mysqli_sql_exception: Unknown column '1671468005_44af9d7f2d45a519e76d.png' in 'where clause' in /var/www/html/myProject/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/myProject/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/myProject/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/myProject/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/myProject/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/myProject/app/Models/RegisterModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/html/myProject/app/Controllers/FbController.php(222): App\Models\RegisterModel->uploadCover()
+#6 /var/www/html/myProject/system/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+#7 /var/www/html/myProject/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/myProject/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/myProject/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 10:40:05 --> Unknown column '1671468005_44af9d7f2d45a519e76d.png' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/RegisterModel.php(120): CodeIgniter\Database\BaseBuilder->update()
+ 6 APPPATH/Controllers/FbController.php(222): App\Models\RegisterModel->uploadCover()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 10:46:40 --> mysqli_sql_exception: Unknown column '1671468400_03522c8ec09af6646638.png' in 'field list' in /var/www/html/myProject/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/myProject/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/myProject/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/myProject/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/myProject/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/myProject/app/Models/RegisterModel.php(119): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/html/myProject/app/Controllers/FbController.php(222): App\Models\RegisterModel->uploadCover()
+#6 /var/www/html/myProject/system/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+#7 /var/www/html/myProject/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/myProject/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/myProject/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 10:46:40 --> Unknown column '1671468400_03522c8ec09af6646638.png' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/RegisterModel.php(119): CodeIgniter\Database\BaseBuilder->update()
+ 6 APPPATH/Controllers/FbController.php(222): App\Models\RegisterModel->uploadCover()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 10:54:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::affectedRows()
+in APPPATH/Models/RegisterModel.php on line 124.
+ 1 APPPATH/Controllers/FbController.php(222): App\Models\RegisterModel->uploadCover()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 13:01:25 --> finfo_file(/tmp/phpBva3lb): failed to open stream: No such file or directory
+in SYSTEMPATH/Files/File.php on line 114.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Files/File.php(114): finfo_file()
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+ 4 SYSTEMPATH/HTTP/Files/UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+ 5 SYSTEMPATH/Files/File.php(126): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+ 6 APPPATH/Controllers/FbController.php(214): CodeIgniter\Files\File->getRandomName()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 13:16:35 --> Call to undefined function write_file()
+in APPPATH/Views/pages/home_content.php on line 17.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/FbController.php(85): view()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->home()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 22:28:53 --> Undefined index: imagic
+in SYSTEMPATH/Config/Services.php on line 335.
+ 1 SYSTEMPATH/Config/Services.php(335): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Config/BaseService.php(253): CodeIgniter\Config\Services::image()
+ 3 SYSTEMPATH/Config/BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic()
+ 4 SYSTEMPATH/Config/Services.php(330): CodeIgniter\Config\BaseService::getSharedInstance()
+ 5 SYSTEMPATH/Config/BaseService.php(253): CodeIgniter\Config\Services::image()
+ 6 APPPATH/Controllers/FbController.php(210): CodeIgniter\Config\BaseService::__callStatic()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 22:29:07 --> File not found: 
+in SYSTEMPATH/Files/File.php on line 46.
+ 1 SYSTEMPATH/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(148): CodeIgniter\Files\File->__construct()
+ 3 APPPATH/Controllers/FbController.php(213): CodeIgniter\Images\Handlers\BaseHandler->withFile()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 22:29:31 --> The original file is not a valid file.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 137.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(341): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 APPPATH/Controllers/FbController.php(212): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 22:29:37 --> The original file is not a valid file.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 137.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(341): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 APPPATH/Controllers/FbController.php(212): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 22:55:59 --> Call to undefined function App\Controllers\withFile()
+in APPPATH/Controllers/FbController.php on line 213.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 22:57:01 --> Call to undefined function App\Controllers\withFile()
+in APPPATH/Controllers/FbController.php on line 213.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 23:11:07 --> Call to undefined function App\Controllers\withFile()
+in APPPATH/Controllers/FbController.php on line 213.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 23:15:21 --> Call to undefined function App\Controllers\withFile()
+in APPPATH/Controllers/FbController.php on line 213.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 23:16:06 --> The original file is not a valid file.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 137.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(341): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 APPPATH/Controllers/FbController.php(212): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 23:16:14 --> The original file is not a valid file.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 137.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(341): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 APPPATH/Controllers/FbController.php(212): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,944 @@
+CRITICAL - 2022-12-12 00:30:02 --> Undefined constant "App\Controllers\login"
+in APPPATH\Controllers\FbController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 00:35:23 --> Allowed fields must be specified for model: App\Models\RegisterModel
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\RegisterModel')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\FbController.php(38): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 00:35:24 --> Allowed fields must be specified for model: App\Models\RegisterModel
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\RegisterModel')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\FbController.php(38): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 00:35:25 --> Allowed fields must be specified for model: App\Models\RegisterModel
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\RegisterModel')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\FbController.php(38): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 00:35:25 --> Allowed fields must be specified for model: App\Models\RegisterModel
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\RegisterModel')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\FbController.php(38): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 00:35:34 --> Allowed fields must be specified for model: App\Models\RegisterModel
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\RegisterModel')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\FbController.php(38): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 00:36:49 --> Class "App\Controllers\App\Models\RegisterModel" not found
+in APPPATH\Controllers\FbController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 00:37:16 --> Class "App\Controllers\App\Models\RegisterModel" not found
+in APPPATH\Controllers\FbController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 00:37:47 --> Allowed fields must be specified for model: App\Models\RegisterModel
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\RegisterModel')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\FbController.php(38): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 00:39:56 --> Allowed fields must be specified for model: App\Models\RegisterModel
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\RegisterModel')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\FbController.php(38): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 00:40:32 --> Allowed fields must be specified for model: App\Models\RegisterModel
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\RegisterModel')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\FbController.php(38): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 00:40:57 --> Allowed fields must be specified for model: App\Models\RegisterModel
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\RegisterModel')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\FbController.php(38): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:02:30 --> Undefined constant "App\Controllers\pages\home"
+in APPPATH\Controllers\FbController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:19:12 --> Undefined variable $request
+in APPPATH\Controllers\FbController.php on line 32.
+ 1 APPPATH\Controllers\FbController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\FbController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:21:50 --> Undefined constant "App\Controllers\user_detail"
+in APPPATH\Controllers\FbController.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:22:25 --> Undefined array key "name"
+in APPPATH\Controllers\FbController.php on line 39.
+ 1 APPPATH\Controllers\FbController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Controllers\\FbController.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:22:26 --> Undefined array key "name"
+in APPPATH\Controllers\FbController.php on line 39.
+ 1 APPPATH\Controllers\FbController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Controllers\\FbController.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:22:58 --> Undefined variable $user_detail
+in APPPATH\Controllers\FbController.php on line 39.
+ 1 APPPATH\Controllers\FbController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_detail', 'APPPATH\\Controllers\\FbController.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:25:09 --> Undefined array key "name"
+in APPPATH\Controllers\FbController.php on line 39.
+ 1 APPPATH\Controllers\FbController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Controllers\\FbController.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:25:26 --> Undefined constant "App\Controllers\name"
+in APPPATH\Controllers\FbController.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:28:21 --> Undefined constant "App\Controllers\user_detail"
+in APPPATH\Controllers\FbController.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:31:24 --> Undefined variable $name
+in APPPATH\Models\RegisterModel.php on line 15.
+ 1 APPPATH\Models\RegisterModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'APPPATH\\Models\\RegisterModel.php', 15)
+ 2 APPPATH\Controllers\FbController.php(27): App\Models\RegisterModel->getdetails()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:37:09 --> Undefined variable $name
+in APPPATH\Models\RegisterModel.php on line 15.
+ 1 APPPATH\Models\RegisterModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'APPPATH\\Models\\RegisterModel.php', 15)
+ 2 APPPATH\Controllers\FbController.php(27): App\Models\RegisterModel->getdetails()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:39:26 --> Undefined variable $data
+in APPPATH\Models\RegisterModel.php on line 14.
+ 1 APPPATH\Models\RegisterModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Models\\RegisterModel.php', 14)
+ 2 APPPATH\Controllers\FbController.php(27): App\Models\RegisterModel->getdetails()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:43:54 --> Too few arguments to function App\Models\RegisterModel::getdetails(), 0 passed in C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php on line 27 and exactly 1 expected
+in APPPATH\Models\RegisterModel.php on line 11.
+ 1 APPPATH\Controllers\FbController.php(27): App\Models\RegisterModel->getdetails()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:44:59 --> Undefined variable $data
+in APPPATH\Controllers\FbController.php on line 27.
+ 1 APPPATH\Controllers\FbController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\FbController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 01:46:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''INSERT INTO `user_details` (name,email,address,mobilenumber,password) values...' at line 1 in C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('('INSERT INTO `...', 0)
+#1 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('('INSERT INTO `...')
+#2 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('('INSERT INTO `...')
+#3 C:\xampp\htdocs\Showcase\ci4\app\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('('INSERT INTO `...')
+#4 C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails(Array)
+#5 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(927): App\Controllers\FbController->add()
+#6 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+#7 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Showcase\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 01:46:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''INSERT INTO `user_details` (name,email,address,mobilenumber,password) values...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('(\'INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'v\',\'\',\'\',\'\',\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('(\'INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'v\',\'\',\'\',\'\',\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('(\'INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'v\',\'\',\'\',\'\',\'\')')
+ 4 APPPATH\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('(\'INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'v\',\'\',\'\',\'\',\'\')')
+ 5 APPPATH\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 01:47:22 --> mysqli_sql_exception: Unknown column 'mobilenumber' in 'field list' in C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Showcase\ci4\app\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...')
+#4 C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails(Array)
+#5 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(927): App\Controllers\FbController->add()
+#6 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+#7 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Showcase\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 01:47:22 --> Unknown column 'mobilenumber' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'b\',\'\',\'\',\'\',\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'b\',\'\',\'\',\'\',\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'b\',\'\',\'\',\'\',\'\')')
+ 4 APPPATH\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'b\',\'\',\'\',\'\',\'\')')
+ 5 APPPATH\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 01:48:42 --> mysqli_sql_exception: Unknown column 'mobilenumber' in 'field list' in C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Showcase\ci4\app\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...')
+#4 C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails(Array)
+#5 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(927): App\Controllers\FbController->add()
+#6 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+#7 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Showcase\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 01:48:42 --> Unknown column 'mobilenumber' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'\',\'\',\'\',\'123\',\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'\',\'\',\'\',\'123\',\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'\',\'\',\'\',\'123\',\'\')')
+ 4 APPPATH\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'\',\'\',\'\',\'123\',\'\')')
+ 5 APPPATH\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 01:50:24 --> mysqli_sql_exception: Unknown column 'mobilenumber' in 'field list' in C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Showcase\ci4\app\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...')
+#4 C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails(Array)
+#5 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(927): App\Controllers\FbController->add()
+#6 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+#7 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Showcase\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 01:50:24 --> Unknown column 'mobilenumber' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'\',\'\',\'\',\'\',\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'\',\'\',\'\',\'\',\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'\',\'\',\'\',\'\',\'\')')
+ 4 APPPATH\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'\',\'\',\'\',\'\',\'\')')
+ 5 APPPATH\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 01:51:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''')' at line 1 in C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Showcase\ci4\app\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...')
+#4 C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails(Array)
+#5 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(927): App\Controllers\FbController->add()
+#6 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+#7 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Showcase\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 01:51:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'sam\',\'\',\'\',,\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'sam\',\'\',\'\',,\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'sam\',\'\',\'\',,\'\')')
+ 4 APPPATH\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'sam\',\'\',\'\',,\'\')')
+ 5 APPPATH\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 01:52:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''')' at line 1 in C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Showcase\ci4\app\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...')
+#4 C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails(Array)
+#5 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(927): App\Controllers\FbController->add()
+#6 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+#7 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Showcase\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 01:52:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'sam\',\'\',\'\',,\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'sam\',\'\',\'\',,\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'sam\',\'\',\'\',,\'\')')
+ 4 APPPATH\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'sam\',\'\',\'\',,\'\')')
+ 5 APPPATH\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 01:53:15 --> mysqli_sql_exception: Unknown column 'mobilenumber' in 'field list' in C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Showcase\ci4\app\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...')
+#4 C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails(Array)
+#5 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(927): App\Controllers\FbController->add()
+#6 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+#7 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Showcase\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 01:53:15 --> Unknown column 'mobilenumber' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'sam\',\'\',\'asdcj\',123456789,\'123\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'sam\',\'\',\'asdcj\',123456789,\'123\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'sam\',\'\',\'asdcj\',123456789,\'123\')')
+ 4 APPPATH\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'sam\',\'\',\'asdcj\',123456789,\'123\')')
+ 5 APPPATH\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 01:54:34 --> mysqli_sql_exception: Unknown column 'mobilenumber' in 'field list' in C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Showcase\ci4\app\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...')
+#4 C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails(Array)
+#5 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(927): App\Controllers\FbController->add()
+#6 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+#7 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Showcase\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 01:54:34 --> Unknown column 'mobilenumber' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'sam\',\'s@s.com\',\'dfadsa\',123456789,\'123\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'sam\',\'s@s.com\',\'dfadsa\',123456789,\'123\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'sam\',\'s@s.com\',\'dfadsa\',123456789,\'123\')')
+ 4 APPPATH\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_details` (name,email,address,mobilenumber,password) values (\'sam\',\'s@s.com\',\'dfadsa\',123456789,\'123\')')
+ 5 APPPATH\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 01:55:29 --> mysqli_sql_exception: Unknown column 'password' in 'field list' in C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Showcase\ci4\app\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...')
+#4 C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails(Array)
+#5 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(927): App\Controllers\FbController->add()
+#6 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+#7 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Showcase\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 01:55:29 --> Unknown column 'password' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_details` (name,email,address,mobile_number,password) values (\'sam\',\'s@s.com\',\'adfs\',123456789,\'123\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_details` (name,email,address,mobile_number,password) values (\'sam\',\'s@s.com\',\'adfs\',123456789,\'123\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_details` (name,email,address,mobile_number,password) values (\'sam\',\'s@s.com\',\'adfs\',123456789,\'123\')')
+ 4 APPPATH\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_details` (name,email,address,mobile_number,password) values (\'sam\',\'s@s.com\',\'adfs\',123456789,\'123\')')
+ 5 APPPATH\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:57:53 --> Undefined variable $result
+in APPPATH\Models\RegisterModel.php on line 22.
+ 1 APPPATH\Models\RegisterModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'APPPATH\\Models\\RegisterModel.php', 22)
+ 2 APPPATH\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 01:59:34 --> Call to a member function getResult() on bool
+in APPPATH\Models\RegisterModel.php on line 21.
+ 1 APPPATH\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:04:00 --> Unclosed '{' on line 6
+in APPPATH\Models\RegisterModel.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\RegisterModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\RegisterModel')
+ 3 APPPATH\Controllers\FbController.php(26): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\RegisterModel')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:04:28 --> Call to a member function getResult() on bool
+in APPPATH\Models\RegisterModel.php on line 21.
+ 1 APPPATH\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:05:58 --> syntax error, unexpected token ";"
+in APPPATH\Models\RegisterModel.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\RegisterModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\RegisterModel')
+ 3 APPPATH\Controllers\FbController.php(26): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\RegisterModel')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:06:24 --> Call to a member function getResult() on bool
+in APPPATH\Models\RegisterModel.php on line 23.
+ 1 APPPATH\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:10:20 --> Call to a member function getResult() on bool
+in APPPATH\Models\RegisterModel.php on line 21.
+ 1 APPPATH\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:11:30 --> Call to a member function result() on bool
+in APPPATH\Models\RegisterModel.php on line 23.
+ 1 APPPATH\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:16:56 --> Allowed fields must be specified for model: App\Models\RegisterModel
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\RegisterModel')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\FbController.php(41): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:42:57 --> Call to a member function getResult() on bool
+in APPPATH\Models\RegisterModel.php on line 21.
+ 1 APPPATH\Controllers\FbController.php(37): App\Models\RegisterModel->getdetails([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:47:08 --> Call to a member function getResult() on bool
+in APPPATH\Models\RegisterModel.php on line 21.
+ 1 APPPATH\Controllers\FbController.php(37): App\Models\RegisterModel->getdetails([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:54:14 --> Allowed fields must be specified for model: App\Models\RegisterModel
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\RegisterModel')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\FbController.php(41): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:56:46 --> Allowed fields must be specified for model: App\Models\RegisterModel
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\RegisterModel')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 APPPATH\Controllers\FbController.php(41): CodeIgniter\Model->insert([...], false)
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 02:57:46 --> Allowed fields must be specified for model: App\Models\RegisterModel
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\RegisterModel')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\FbController.php(41): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 03:14:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''')' at line 1 in C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Showcase\ci4\app\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...')
+#4 C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails(Array)
+#5 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(927): App\Controllers\FbController->add()
+#6 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+#7 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Showcase\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 03:14:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_details` (name,email,address,mobile_number,password) values (\'\',\'\',\'\',,\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_details` (name,email,address,mobile_number,password) values (\'\',\'\',\'\',,\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_details` (name,email,address,mobile_number,password) values (\'\',\'\',\'\',,\'\')')
+ 4 APPPATH\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_details` (name,email,address,mobile_number,password) values (\'\',\'\',\'\',,\'\')')
+ 5 APPPATH\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 03:19:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''')' at line 1 in C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Showcase\ci4\app\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...')
+#4 C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails(Array)
+#5 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(927): App\Controllers\FbController->add()
+#6 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+#7 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Showcase\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 03:19:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_details` (name,email,address,mobile_number,password) values (\'new\',\'\',\'\',,\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_details` (name,email,address,mobile_number,password) values (\'new\',\'\',\'\',,\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_details` (name,email,address,mobile_number,password) values (\'new\',\'\',\'\',,\'\')')
+ 4 APPPATH\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_details` (name,email,address,mobile_number,password) values (\'new\',\'\',\'\',,\'\')')
+ 5 APPPATH\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 03:22:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''')' at line 1 in C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Showcase\ci4\app\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...')
+#4 C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails(Array)
+#5 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(927): App\Controllers\FbController->add()
+#6 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+#7 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Showcase\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 03:22:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_details` (name,email,address,mobile_number,password) values (\'\',\'\',\'\',,\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_details` (name,email,address,mobile_number,password) values (\'\',\'\',\'\',,\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_details` (name,email,address,mobile_number,password) values (\'\',\'\',\'\',,\'\')')
+ 4 APPPATH\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_details` (name,email,address,mobile_number,password) values (\'\',\'\',\'\',,\'\')')
+ 5 APPPATH\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 03:24:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''')' at line 1 in C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Showcase\ci4\app\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...')
+#4 C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails(Array)
+#5 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(927): App\Controllers\FbController->add()
+#6 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+#7 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Showcase\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 03:24:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_details` (name,email,address,mobile_number,password) values (\'\',\'\',\'\',,\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_details` (name,email,address,mobile_number,password) values (\'\',\'\',\'\',,\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_details` (name,email,address,mobile_number,password) values (\'\',\'\',\'\',,\'\')')
+ 4 APPPATH\Models\RegisterModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_details` (name,email,address,mobile_number,password) values (\'\',\'\',\'\',,\'\')')
+ 5 APPPATH\Controllers\FbController.php(40): App\Models\RegisterModel->getdetails([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 04:04:51 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, array given, called in C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php on line 57
+in SYSTEMPATH\BaseModel.php on line 568.
+ 1 APPPATH\Controllers\FbController.php(57): CodeIgniter\BaseModel->findAll([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->loginUser()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 04:05:58 --> mysqli_sql_exception: Unknown column 'user_details.id' in 'where clause' in C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Showcase\ci4\system\Model.php(178): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Showcase\ci4\system\BaseModel.php(524): CodeIgniter\Model->doFind(false, Array)
+#6 C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php(57): CodeIgniter\BaseModel->find(Array)
+#7 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(927): App\Controllers\FbController->loginUser()
+#8 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+#9 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Showcase\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-12 04:05:58 --> Unknown column 'user_details.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user_details`
+WHERE `user_details`.`id` IN (NULL,NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user_details`
+WHERE `user_details`.`id` IN (NULL,NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user_details`
+WHERE `user_details`.`id` IN (NULL,NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user_details`
+WHERE `user_details`.`id` IN :user_details.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(178): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(false, [...])
+ 7 APPPATH\Controllers\FbController.php(57): CodeIgniter\BaseModel->find([...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->loginUser()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 04:08:48 --> mysqli_sql_exception: Unknown column 'user_details.id' in 'where clause' in C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Showcase\ci4\system\Model.php(178): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Showcase\ci4\system\BaseModel.php(524): CodeIgniter\Model->doFind(false, Array)
+#6 C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php(57): CodeIgniter\BaseModel->find(Array)
+#7 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(927): App\Controllers\FbController->loginUser()
+#8 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+#9 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Showcase\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-12 04:08:48 --> Unknown column 'user_details.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user_details`
+WHERE `user_details`.`id` IN (NULL,NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user_details`
+WHERE `user_details`.`id` IN (NULL,NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user_details`
+WHERE `user_details`.`id` IN (NULL,NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user_details`
+WHERE `user_details`.`id` IN :user_details.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(178): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(false, [...])
+ 7 APPPATH\Controllers\FbController.php(57): CodeIgniter\BaseModel->find([...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->loginUser()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 04:16:40 --> mysqli_sql_exception: Unknown column 'user_details.id' in 'where clause' in C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Showcase\ci4\system\Model.php(178): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Showcase\ci4\system\BaseModel.php(524): CodeIgniter\Model->doFind(false, Array)
+#6 C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php(57): CodeIgniter\BaseModel->find(Array)
+#7 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(927): App\Controllers\FbController->loginUser()
+#8 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+#9 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Showcase\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-12 04:16:40 --> Unknown column 'user_details.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user_details`
+WHERE `user_details`.`id` IN (NULL,NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user_details`
+WHERE `user_details`.`id` IN (NULL,NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user_details`
+WHERE `user_details`.`id` IN (NULL,NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user_details`
+WHERE `user_details`.`id` IN :user_details.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(178): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(false, [...])
+ 7 APPPATH\Controllers\FbController.php(57): CodeIgniter\BaseModel->find([...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->loginUser()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 04:31:46 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, array given, called in C:\xampp\htdocs\Showcase\ci4\system\Model.php on line 772
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get([...])
+ 2 APPPATH\Controllers\FbController.php(57): CodeIgniter\Model->__call('get', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->loginUser()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 04:41:44 --> Call to undefined method App\Models\RegisterModel::getResult
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\FbController.php(57): CodeIgniter\Model->__call('getResult', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->loginUser()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 04:46:53 --> Call to undefined method App\Models\RegisterModel::getId
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\FbController.php(57): CodeIgniter\Model->__call('getId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->loginUser()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 04:49:04 --> Call to undefined method App\Models\RegisterModel::getResult
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\FbController.php(57): CodeIgniter\Model->__call('getResult', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->loginUser()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 04:59:24 --> Call to undefined method App\Models\RegisterModel::getResult
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\FbController.php(57): CodeIgniter\Model->__call('getResult', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->loginUser()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 04:59:38 --> Call to undefined method App\Models\RegisterModel::getResult
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\FbController.php(57): CodeIgniter\Model->__call('getResult', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->loginUser()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 05:39:18 --> Invalid file: \pages\adminhome.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\pages\\adminhome.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('\\pages\\adminhome', [], true)
+ 3 APPPATH\Controllers\FbController.php(80): view('\\pages\\adminhome')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->adminhome()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 06:12:08 --> Call to undefined method App\Models\RegisterModel::send
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\FbController.php(91): CodeIgniter\Model->__call('send', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->verifyAdminLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 06:12:39 --> Call to undefined method App\Models\RegisterModel::send
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\FbController.php(91): CodeIgniter\Model->__call('send', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->verifyAdminLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 06:14:15 --> Undefined array key "name"
+in APPPATH\Models\RegisterModel.php on line 13.
+ 1 APPPATH\Models\RegisterModel.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Models\\RegisterModel.php', 13)
+ 2 APPPATH\Controllers\FbController.php(91): App\Models\RegisterModel->getdetails([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->verifyAdminLogin()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 23:20:38 --> Too few arguments to function App\Controllers\FbController::newlogin(), 0 passed in C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\FbController.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->newlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 23:24:59 --> Too few arguments to function App\Controllers\FbController::newlogin(), 0 passed in C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\FbController.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->newlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 23:27:33 --> Declaration of App\Models\RegisterModel::validate($data) must be compatible with CodeIgniter\BaseModel::validate($data): bool
+in APPPATH\Models\RegisterModel.php on line 57.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-12 23:28:37 --> Declaration of App\Models\RegisterModel::validate($data) must be compatible with CodeIgniter\BaseModel::validate($data): bool
+in APPPATH\Models\RegisterModel.php on line 57.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-12 23:29:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\RegisterModel.php on line 63.
+ 1 APPPATH\Controllers\FbController.php(117): App\Models\RegisterModel->validatelogin([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->newlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 23:31:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\RegisterModel.php on line 66.
+ 1 APPPATH\Controllers\FbController.php(117): App\Models\RegisterModel->validatelogin([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->newlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 23:32:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\RegisterModel.php on line 66.
+ 1 APPPATH\Controllers\FbController.php(117): App\Models\RegisterModel->validatelogin([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->newlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 23:41:30 --> Undefined variable $builder
+in APPPATH\Models\RegisterModel.php on line 67.
+ 1 APPPATH\Models\RegisterModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $builder', 'APPPATH\\Models\\RegisterModel.php', 67)
+ 2 APPPATH\Controllers\FbController.php(117): App\Models\RegisterModel->validatelogin([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->newlogin()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 23:43:48 --> mysqli_sql_exception: Not unique table/alias: 'user_details' in C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_id...', 0)
+#1 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id...')
+#2 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id...')
+#3 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_id...', Array, false)
+#4 C:\xampp\htdocs\Showcase\ci4\app\Models\RegisterModel.php(73): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php(117): App\Models\RegisterModel->validatelogin(Array)
+#6 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(927): App\Controllers\FbController->newlogin()
+#7 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+#8 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Showcase\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-12 23:43:48 --> Not unique table/alias: 'user_details'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user_id`, `name`
+FROM `user_details`, `user_details`
+WHERE `email` = \'g@g.com\'
+AND `password` = \'123\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id`, `name`
+FROM `user_details`, `user_details`
+WHERE `email` = \'g@g.com\'
+AND `password` = \'123\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id`, `name`
+FROM `user_details`, `user_details`
+WHERE `email` = \'g@g.com\'
+AND `password` = \'123\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `user_id`, `name`
+FROM `user_details`, `user_details`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 5 APPPATH\Models\RegisterModel.php(73): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\FbController.php(117): App\Models\RegisterModel->validatelogin([...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->newlogin()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 23:44:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Models\RegisterModel.php on line 80.
+ 1 APPPATH\Controllers\FbController.php(117): App\Models\RegisterModel->validatelogin([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->newlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-12 23:54:19 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Showcase\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\Showcase\ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\Showcase\ci4\app\Models\RegisterModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Showcase\ci4\app\Controllers\FbController.php(84): App\Models\RegisterModel->verifyAdminLogin(Array)
+#6 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(927): App\Controllers\FbController->verifyAdminLogin()
+#7 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+#8 C:\xampp\htdocs\Showcase\ci4\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Showcase\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-12 23:54:19 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `name`
+FROM `admin`
+WHERE `email` = \'admin@admin.com\'
+AND `password` = \'admin\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `name`
+FROM `admin`
+WHERE `email` = \'admin@admin.com\'
+AND `password` = \'admin\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `name`
+FROM `admin`
+WHERE `email` = \'admin@admin.com\'
+AND `password` = \'admin\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `name`
+FROM `admin`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 5 APPPATH\Models\RegisterModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\FbController.php(84): App\Models\RegisterModel->verifyAdminLogin([...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->verifyAdminLogin()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

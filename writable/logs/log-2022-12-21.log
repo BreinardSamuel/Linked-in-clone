@@ -1,0 +1,118 @@
+CRITICAL - 2022-12-21 00:42:44 --> Undefined index: coverFinal
+in APPPATH/Controllers/FbController.php on line 246.
+ 1 APPPATH/Controllers/FbController.php(246): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->crop()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 00:47:23 --> Undefined index: coverFinal
+in APPPATH/Controllers/FbController.php on line 246.
+ 1 APPPATH/Controllers/FbController.php(246): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->crop()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 00:48:25 --> Undefined index: coverFinal
+in APPPATH/Controllers/FbController.php on line 246.
+ 1 APPPATH/Controllers/FbController.php(246): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->crop()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 00:49:41 --> Undefined index: coverFinal
+in APPPATH/Controllers/FbController.php on line 246.
+ 1 APPPATH/Controllers/FbController.php(246): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->crop()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 01:15:07 --> Call to undefined method App\Controllers\FbController::response()
+in APPPATH/Controllers/FbController.php on line 240.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->uploadCoverPicture()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 03:46:18 --> Undefined variable: img
+in APPPATH/Controllers/FbController.php on line 263.
+ 1 APPPATH/Controllers/FbController.php(263): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->imgcheck()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 03:47:01 --> file_put_contents(images/63a2d6155dae4.png): failed to open stream: No such file or directory
+in APPPATH/Controllers/FbController.php on line 269.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/FbController.php(269): file_put_contents()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->imgcheck()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 03:49:00 --> Undefined variable: d
+in APPPATH/Controllers/FbController.php on line 271.
+ 1 APPPATH/Controllers/FbController.php(271): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->imgcheck()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 03:49:29 --> syntax error, unexpected '}', expecting ';'
+in APPPATH/Controllers/FbController.php on line 272.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 03:59:04 --> Call to a member function store() on null
+in APPPATH/Controllers/FbController.php on line 273.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->imgcheck()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 04:00:04 --> Call to a member function store() on null
+in APPPATH/Controllers/FbController.php on line 273.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->imgcheck()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 04:01:09 --> Call to a member function store() on null
+in APPPATH/Controllers/FbController.php on line 274.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->imgcheck()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 04:02:58 --> Call to a member function store() on null
+in APPPATH/Controllers/FbController.php on line 273.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->imgcheck()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 04:09:22 --> Undefined index: image
+in APPPATH/Models/RegisterModel.php on line 113.
+ 1 APPPATH/Models/RegisterModel.php(113): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/FbController.php(278): App\Models\RegisterModel->uploadCover()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->imgcheck()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 04:25:03 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Models/RegisterModel.php on line 127.
+ 1 APPPATH/Controllers/FbController.php(265): App\Models\RegisterModel->uploadCover()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->imgcheck()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 04:25:30 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH/Controllers/FbController.php on line 266.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->imgcheck()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 04:25:52 --> Array to string conversion
+in APPPATH/Controllers/FbController.php on line 266.
+ 1 APPPATH/Controllers/FbController.php(266): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->imgcheck()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

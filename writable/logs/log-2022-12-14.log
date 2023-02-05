@@ -1,0 +1,150 @@
+CRITICAL - 2022-12-14 22:54:59 --> Undefined variable $config
+in APPPATH\Controllers\FbController.php on line 151.
+ 1 APPPATH\Controllers\FbController.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $config', 'APPPATH\\Controllers\\FbController.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->newlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 22:58:54 --> Undefined constant "App\Models\user_id"
+in APPPATH\Models\RegisterModel.php on line 81.
+ 1 APPPATH\Controllers\FbController.php(145): App\Models\RegisterModel->validatelogin([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->newlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 23:01:04 --> Undefined array key "name"
+in APPPATH\Controllers\FbController.php on line 153.
+ 1 APPPATH\Controllers\FbController.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Controllers\\FbController.php', 153)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->newlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 23:02:14 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\FbController.php on line 153.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->newlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 23:02:44 --> Undefined constant "App\Controllers\user_id"
+in APPPATH\Controllers\FbController.php on line 153.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->newlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 23:09:14 --> Undefined variable $config
+in APPPATH\Controllers\FbController.php on line 151.
+ 1 APPPATH\Controllers\FbController.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $config', 'APPPATH\\Controllers\\FbController.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->newlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 23:09:37 --> Undefined variable $email
+in APPPATH\Controllers\FbController.php on line 157.
+ 1 APPPATH\Controllers\FbController.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'APPPATH\\Controllers\\FbController.php', 157)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->newlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 23:11:14 --> Unclosed '{' on line 149 does not match ')'
+in APPPATH\Controllers\FbController.php on line 161.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\FbController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\FbController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\FbController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\FbController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 23:11:46 --> Undefined variable $email
+in APPPATH\Controllers\FbController.php on line 161.
+ 1 APPPATH\Controllers\FbController.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'APPPATH\\Controllers\\FbController.php', 161)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->newlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 23:12:20 --> Array to string conversion
+in APPPATH\Controllers\FbController.php on line 161.
+ 1 APPPATH\Controllers\FbController.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\FbController.php', 161)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->newlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 23:36:45 --> syntax error, unexpected token "(", expecting ";" or "{"
+in APPPATH\Controllers\FbController.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\FbController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\FbController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\FbController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\FbController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 23:38:58 --> Undefined variable $session
+in APPPATH\Controllers\FbController.php on line 72.
+ 1 APPPATH\Controllers\FbController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\FbController.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->home()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 23:40:24 --> Undefined variable $session
+in APPPATH\Controllers\FbController.php on line 77.
+ 1 APPPATH\Controllers\FbController.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\FbController.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->home()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 23:40:58 --> Undefined variable $session
+in APPPATH\Controllers\FbController.php on line 77.
+ 1 APPPATH\Controllers\FbController.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\FbController.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->home()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 23:48:44 --> Undefined variable $data
+in APPPATH\Controllers\FbController.php on line 83.
+ 1 APPPATH\Controllers\FbController.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\FbController.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->home()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 23:49:06 --> Undefined variable $details
+in APPPATH\Views\pages\homeview.php on line 12.
+ 1 APPPATH\Views\pages\homeview.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $details', 'APPPATH\\Views\\pages\\homeview.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\homeview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('\\pages\\homeview', [], true)
+ 5 APPPATH\Controllers\FbController.php(83): view('\\pages\\homeview')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->home()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 23:59:07 --> Undefined array key "name"
+in APPPATH\Views\pages\homeview.php on line 12.
+ 1 APPPATH\Views\pages\homeview.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\pages\\homeview.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\homeview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('\\pages\\homeview', [], true)
+ 5 APPPATH\Controllers\FbController.php(83): view('\\pages\\homeview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->home()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 23:59:42 --> Undefined constant "name"
+in APPPATH\Views\pages\homeview.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('\\pages\\homeview', [], true)
+ 4 APPPATH\Controllers\FbController.php(83): view('\\pages\\homeview', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->home()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 23:59:56 --> Undefined array key "name"
+in APPPATH\Views\pages\homeview.php on line 12.
+ 1 APPPATH\Views\pages\homeview.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\pages\\homeview.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\homeview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('\\pages\\homeview', [], true)
+ 5 APPPATH\Controllers\FbController.php(83): view('\\pages\\homeview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->home()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

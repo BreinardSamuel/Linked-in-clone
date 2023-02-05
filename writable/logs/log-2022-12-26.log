@@ -1,0 +1,460 @@
+CRITICAL - 2022-12-26 00:00:11 --> Trying to get property 'post' of non-object
+in APPPATH/Views/pages/home_content.php on line 133.
+ 1 APPPATH/Views/pages/home_content.php(133): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/home_content.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/FbController.php(89): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->home()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 00:20:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+in APPPATH/Models/RegisterModel.php on line 100.
+ 1 APPPATH/Controllers/FbController.php(83): App\Models\RegisterModel->displayprofile()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->home()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 01:15:16 --> Undefined variable: user_id
+in APPPATH/Models/RegisterModel.php on line 30.
+ 1 APPPATH/Models/RegisterModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/FbController.php(48): App\Models\RegisterModel->getdetails()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 01:15:33 --> Undefined variable: user_id
+in APPPATH/Models/RegisterModel.php on line 30.
+ 1 APPPATH/Models/RegisterModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/FbController.php(48): App\Models\RegisterModel->getdetails()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 01:26:09 --> Call to a member function getResult() on bool
+in APPPATH/Models/RegisterModel.php on line 26.
+ 1 APPPATH/Controllers/FbController.php(48): App\Models\RegisterModel->getdetails()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-26 01:34:18 --> mysqli_sql_exception: Unknown column 'mobilenumber' in 'field list' in /var/www/html/myProject/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/myProject/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/myProject/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/myProject/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/myProject/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/myProject/app/Models/RegisterModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/myProject/app/Controllers/FbController.php(48): App\Models\RegisterModel->getdetails()
+#6 /var/www/html/myProject/system/CodeIgniter.php(927): App\Controllers\FbController->add()
+#7 /var/www/html/myProject/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/myProject/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/myProject/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-26 01:34:18 --> Unknown column 'mobilenumber' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/RegisterModel.php(36): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH/Controllers/FbController.php(48): App\Models\RegisterModel->getdetails()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 01:35:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::insertID()
+in APPPATH/Models/RegisterModel.php on line 37.
+ 1 APPPATH/Controllers/FbController.php(48): App\Models\RegisterModel->getdetails()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 01:37:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getInsertID()
+in APPPATH/Models/RegisterModel.php on line 44.
+ 1 APPPATH/Controllers/FbController.php(48): App\Models\RegisterModel->getdetails()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 01:38:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getInsertID()
+in APPPATH/Models/RegisterModel.php on line 43.
+ 1 APPPATH/Controllers/FbController.php(48): App\Models\RegisterModel->getdetails()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 01:38:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getInsertID()
+in APPPATH/Models/RegisterModel.php on line 43.
+ 1 APPPATH/Controllers/FbController.php(48): App\Models\RegisterModel->getdetails()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 01:39:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getInsertID()
+in APPPATH/Models/RegisterModel.php on line 43.
+ 1 APPPATH/Controllers/FbController.php(48): App\Models\RegisterModel->getdetails()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 01:40:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH/Models/RegisterModel.php on line 43.
+ 1 APPPATH/Controllers/FbController.php(48): App\Models\RegisterModel->getdetails()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 01:45:16 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in /var/www/html/myProject/app/Models/RegisterModel.php on line 43
+in SYSTEMPATH/Database/BaseBuilder.php on line 1577.
+ 1 APPPATH/Models/RegisterModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 2 APPPATH/Controllers/FbController.php(48): App\Models\RegisterModel->getdetails()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 01:46:20 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 335.
+ 1 SYSTEMPATH/Database/Query.php(335): strtr()
+ 2 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds()
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/RegisterModel.php(63): CodeIgniter\Database\BaseBuilder->insert()
+ 7 APPPATH/Models/RegisterModel.php(47): App\Models\RegisterModel->insertNextVal()
+ 8 APPPATH/Controllers/FbController.php(48): App\Models\RegisterModel->getdetails()
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-26 02:03:06 --> mysqli_sql_exception: Column 'user_id' cannot be null in /var/www/html/myProject/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/myProject/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/myProject/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/myProject/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/myProject/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/myProject/app/Models/RegisterModel.php(59): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/myProject/app/Controllers/FbController.php(52): App\Models\RegisterModel->insertNextTbl()
+#6 /var/www/html/myProject/system/CodeIgniter.php(927): App\Controllers\FbController->add()
+#7 /var/www/html/myProject/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/myProject/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/myProject/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-26 02:03:06 --> Column 'user_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/RegisterModel.php(59): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH/Controllers/FbController.php(52): App\Models\RegisterModel->insertNextTbl()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-26 02:04:09 --> mysqli_sql_exception: Column 'user_id' cannot be null in /var/www/html/myProject/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/myProject/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/myProject/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/myProject/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/myProject/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/myProject/app/Models/RegisterModel.php(59): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/myProject/app/Controllers/FbController.php(52): App\Models\RegisterModel->insertNextTbl()
+#6 /var/www/html/myProject/system/CodeIgniter.php(927): App\Controllers\FbController->add()
+#7 /var/www/html/myProject/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/myProject/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/myProject/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-26 02:04:09 --> Column 'user_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/RegisterModel.php(59): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH/Controllers/FbController.php(52): App\Models\RegisterModel->insertNextTbl()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-26 02:04:59 --> mysqli_sql_exception: Column 'user_id' cannot be null in /var/www/html/myProject/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/myProject/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/myProject/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/myProject/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/myProject/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/myProject/app/Models/RegisterModel.php(59): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/myProject/app/Controllers/FbController.php(52): App\Models\RegisterModel->insertNextTbl()
+#6 /var/www/html/myProject/system/CodeIgniter.php(927): App\Controllers\FbController->add()
+#7 /var/www/html/myProject/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/myProject/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/myProject/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-26 02:04:59 --> Column 'user_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/RegisterModel.php(59): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH/Controllers/FbController.php(52): App\Models\RegisterModel->insertNextTbl()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-26 02:05:18 --> mysqli_sql_exception: Unknown column 'user_ido' in 'field list' in /var/www/html/myProject/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/myProject/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/myProject/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/myProject/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/myProject/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/myProject/app/Models/RegisterModel.php(59): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/myProject/app/Controllers/FbController.php(52): App\Models\RegisterModel->insertNextTbl()
+#6 /var/www/html/myProject/system/CodeIgniter.php(927): App\Controllers\FbController->add()
+#7 /var/www/html/myProject/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/myProject/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/myProject/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-26 02:05:18 --> Unknown column 'user_ido' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/RegisterModel.php(59): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH/Controllers/FbController.php(52): App\Models\RegisterModel->insertNextTbl()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-26 02:13:08 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in /var/www/html/myProject/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/myProject/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/myProject/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/myProject/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/myProject/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/myProject/app/Models/RegisterModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/myProject/app/Controllers/FbController.php(49): App\Models\RegisterModel->getdetails()
+#6 /var/www/html/myProject/system/CodeIgniter.php(927): App\Controllers\FbController->add()
+#7 /var/www/html/myProject/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/myProject/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/myProject/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-26 02:13:08 --> Unknown column 'id' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/RegisterModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/FbController.php(49): App\Models\RegisterModel->getdetails()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 02:16:43 --> Use of undefined constant success - assumed 'success' (this will throw an Error in a future version of PHP)
+in APPPATH/Controllers/FbController.php on line 54.
+ 1 APPPATH/Controllers/FbController.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 02:18:55 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 329.
+ 1 SYSTEMPATH/Database/Query.php(329): implode()
+ 2 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds()
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/RegisterModel.php(72): CodeIgniter\Database\BaseBuilder->insert()
+ 7 APPPATH/Models/RegisterModel.php(55): App\Models\RegisterModel->insertNextTbl()
+ 8 APPPATH/Controllers/FbController.php(49): App\Models\RegisterModel->getdetails()
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 02:20:15 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 329.
+ 1 SYSTEMPATH/Database/Query.php(329): implode()
+ 2 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds()
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/RegisterModel.php(71): CodeIgniter\Database\BaseBuilder->insert()
+ 7 APPPATH/Controllers/FbController.php(51): App\Models\RegisterModel->insertNextTbl()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 02:21:06 --> Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP)
+in APPPATH/Controllers/FbController.php on line 51.
+ 1 APPPATH/Controllers/FbController.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 02:21:36 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/FbController.php on line 51.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 02:23:31 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 335.
+ 1 SYSTEMPATH/Database/Query.php(335): strtr()
+ 2 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds()
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/RegisterModel.php(71): CodeIgniter\Database\BaseBuilder->insert()
+ 7 APPPATH/Controllers/FbController.php(51): App\Models\RegisterModel->insertNextTbl()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 02:25:13 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 335.
+ 1 SYSTEMPATH/Database/Query.php(335): strtr()
+ 2 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds()
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/RegisterModel.php(71): CodeIgniter\Database\BaseBuilder->insert()
+ 7 APPPATH/Controllers/FbController.php(51): App\Models\RegisterModel->insertNextTbl()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 02:28:09 --> Trying to get property 'user_id' of non-object
+in APPPATH/Controllers/FbController.php on line 50.
+ 1 APPPATH/Controllers/FbController.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->add()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:34:01 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH/Views/pages/home_content.php on line 213.
+ 1 APPPATH/Views/pages/home_content.php(213): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/home_content.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/FbController.php(92): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->home()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:10:21 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/FbController.php(86): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->home()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:18:46 --> Undefined variable: data
+in APPPATH/Controllers/FbController.php on line 92.
+ 1 APPPATH/Controllers/FbController.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->home()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:19:24 --> Undefined variable: details
+in APPPATH/Views/pages/home_content.php on line 10.
+ 1 APPPATH/Views/pages/home_content.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/home_content.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/FbController.php(98): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->home()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:32:52 --> Undefined variable: details
+in APPPATH/Views/pages/home_content.php on line 10.
+ 1 APPPATH/Views/pages/home_content.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/home_content.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/FbController.php(95): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->home()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:38:01 --> Undefined variable: detail
+in APPPATH/Views/pages/home_content.php on line 133.
+ 1 APPPATH/Views/pages/home_content.php(133): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/home_content.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/FbController.php(89): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->home()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:38:02 --> Undefined variable: detail
+in APPPATH/Views/pages/home_content.php on line 133.
+ 1 APPPATH/Views/pages/home_content.php(133): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/pages/home_content.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/FbController.php(89): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->home()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:38:22 --> Undefined variable: model
+in APPPATH/Controllers/FbController.php on line 319.
+ 1 APPPATH/Controllers/FbController.php(319): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->fetch()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:39:53 --> Undefined variable: model
+in APPPATH/Controllers/FbController.php on line 319.
+ 1 APPPATH/Controllers/FbController.php(319): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->fetch()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:40:28 --> Undefined variable: model
+in APPPATH/Controllers/FbController.php on line 319.
+ 1 APPPATH/Controllers/FbController.php(319): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->fetch()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:41:49 --> Undefined property: App\Controllers\FbController::$model
+in APPPATH/Controllers/FbController.php on line 319.
+ 1 APPPATH/Controllers/FbController.php(319): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->fetch()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:42:52 --> Undefined property: App\Controllers\FbController::$input
+in APPPATH/Controllers/FbController.php on line 319.
+ 1 APPPATH/Controllers/FbController.php(319): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->fetch()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:44:32 --> Call to a member function num_rows() on array
+in APPPATH/Controllers/FbController.php on line 320.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->fetch()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:46:54 --> Call to a member function result() on array
+in APPPATH/Controllers/FbController.php on line 321.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->fetch()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:47:24 --> Undefined property: stdClass::$post_title
+in APPPATH/Controllers/FbController.php on line 324.
+ 1 APPPATH/Controllers/FbController.php(324): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\FbController->fetch()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

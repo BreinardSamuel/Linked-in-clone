@@ -1,0 +1,136 @@
+CRITICAL - 2022-12-10 01:28:15 --> Undefined variable $data
+in APPPATH\Views\welcome_message.php on line 200.
+ 1 APPPATH\Views\welcome_message.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\welcome_message.php', 200)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 01:29:42 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\Showcase\ci4\app\Controllers\Home.php on line 13
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Home.php(13): view('welcome_message', 'binu')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 01:30:18 --> Undefined variable $data
+in APPPATH\Views\welcome_message.php on line 200.
+ 1 APPPATH\Views\welcome_message.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\welcome_message.php', 200)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 02:36:08 --> Undefined array key 0
+in APPPATH\Views\welcome_message.php on line 200.
+ 1 APPPATH\Views\welcome_message.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\welcome_message.php', 200)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(12): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 07:22:57 --> Class "App\Models\FbModdel" not found
+in APPPATH\Controllers\FbController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 10:56:48 --> Invalid file: \public\pages\login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\public\\pages\\login.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('\\public\\pages\\login', [], true)
+ 3 APPPATH\Controllers\FbController.php(22): view('\\public\\pages\\login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 10:58:17 --> Invalid file: \public\pages\login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\public\\pages\\login.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('\\public\\pages\\login', [], true)
+ 3 APPPATH\Controllers\FbController.php(22): view('\\public\\pages\\login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 10:59:14 --> Invalid file: \app\Views\pages\login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\app\\Views\\pages\\login.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('\\app\\Views\\pages\\login', [], true)
+ 3 APPPATH\Controllers\FbController.php(22): view('\\app\\Views\\pages\\login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 11:01:31 --> Invalid file: \app\Views\pages\login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\app\\Views\\pages\\login.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('\\app\\Views\\pages\\login', [], true)
+ 3 APPPATH\Controllers\FbController.php(22): view('\\app\\Views\\pages\\login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 11:01:31 --> Invalid file: \app\Views\pages\login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\app\\Views\\pages\\login.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('\\app\\Views\\pages\\login', [], true)
+ 3 APPPATH\Controllers\FbController.php(22): view('\\app\\Views\\pages\\login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 11:01:36 --> Invalid file: \app\Views\pages\login.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\app\\Views\\pages\\login.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('\\app\\Views\\pages\\login', [], true)
+ 3 APPPATH\Controllers\FbController.php(22): view('\\app\\Views\\pages\\login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 11:23:09 --> Invalid file: pagesegister.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pagesegister.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pagesegister', [], true)
+ 3 APPPATH\Controllers\FbController.php(28): view('pagesegister')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 11:24:17 --> Invalid file: \pagesegister.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\pagesegister.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('\\pagesegister', [], true)
+ 3 APPPATH\Controllers\FbController.php(28): view('\\pagesegister')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 11:24:42 --> Invalid file: egister.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('egister.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('egister', [], true)
+ 3 APPPATH\Controllers\FbController.php(28): view('egister')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 11:24:52 --> Invalid file: register.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\FbController.php(28): view('register')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\FbController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FbController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

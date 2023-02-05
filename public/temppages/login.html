@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>draw demo</title>
+    <link rel="stylesheet" href="../js/vendor/animate/animate.min.css">
+    <script src="../js/vendor/croppiejs/croppie.min.js"></script>
+</head>
+
+<body>
+    <label for="">img</label>
+    <img src="" alt="" id="vanilla-demo" srcset="">
+    <script>
+        var el = document.getElementById('vanilla-demo');
+        var vanilla = new Croppie(el, {
+            viewport: { width: 100, height: 100 },
+            boundary: { width: 300, height: 300 },
+            showZoomer: false,
+            enableOrientation: true
+        });
+        vanilla.bind({
+            url: 'https://upload.wikimedia.org/wikipedia/commons/2/21/Adams_The_Tetons_and_the_Snake_River.jpg',
+            orientation: 4
+        });
+        //on button click
+        vanilla.result('blob').then(function (blob) {
+            // do something with cropped blob
+        });
+    </script>
+</body>
+
+</html>
